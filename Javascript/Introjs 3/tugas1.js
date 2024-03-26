@@ -77,8 +77,7 @@ getMonth((error, month) => {
   if (error) {
     console.log(error.message);
   } else {
-    const mappedMonth = month.map((m) => m).join(", ");
-    console.log(mappedMonth);
+    const mappedMonth = month.map((mon) => console.log(mon));
   }
 });
 
